@@ -1,0 +1,13 @@
+
+@media screen and (min-width: 992px) {
+    html, body, main, .container, .row, .col{
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow: hidden; /* Empêche le défilement horizontal */
+    }
+    .customScroll {
+        height: 92%;
+        overflow-y: auto; /* Permet le défilement vertical si nécessaire */
+    }
+}
